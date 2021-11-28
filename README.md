@@ -1,15 +1,15 @@
 #Start NGINX in DOCKER
- Configure seu container no arquivo configurar.conf em conf/sh/configurar.conf
+Configure seu container no arquivo configurar.conf em conf/sh/configurar.conf
  
 Digite os comando a seguir na raiz do projeto!
 
-para criar uma imagem:                  ./fmabh.sh build
-para criar e iniciar o container:       ./fmabh.sh create
-para entrar no terminal do container:   ./fmabh.sh bash
-para para o container                   ./fmabh.sh stop
-para iniciar o conteiner ja criado:     ./fmabh.sh start
-para remover o container e a imagem:    ./fmabh.sh remove
-para AJUDA                              ./fmabh.sh help
+./fmabh.sh build    ( CRIA IMAGEM PERSONALIZADA )
+./fmabh.sh create   ( CRIA E INICIA CONTAINER NGINX )
+./fmabh.sh bash     ( ENTRA NO TERMINAL DO CONTAINER )
+./fmabh.sh stop     ( PARA O CONTAINER )
+./fmabh.sh start    ( INICIA O CONTAINER JA CRIADO )
+./fmabh.sh remove   ( REMOVE O CONTAINER E IMAGEM )
+./fmabh.sh help     ( COMANDO PARA OBTER AJUDA NO TERMINAL )                 
 
 Tambem podemos criar um alias temporario para facilitar!
 
