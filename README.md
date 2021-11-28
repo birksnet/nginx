@@ -13,6 +13,6 @@ Digite os comando a seguir na raiz do projeto!
 
 Tambem podemos criar um alias temporario para facilitar!
 
-Digite: alias fmabh=$(pwd)"/fmabh.sh"
+Digite: alias fmabh=$pwd"/fmabh.sh"
 
 agora podemos usar fmabh de qualquer pasta no terminal!
