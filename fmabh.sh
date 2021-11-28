@@ -39,7 +39,7 @@ fi
 
 if [ $1 == 'start' ]
 then
-    docker start -i $CONTAINER_NAME
+    docker start $CONTAINER_NAME
 fi
 
 if [ $1 == 'bash' ]
